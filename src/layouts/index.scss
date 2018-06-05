@@ -1,0 +1,233 @@
+/* CSS Mini Reset */
+/* from http://www.vcarrer.com/2010/05/css-mini-reset.html */
+
+html, body, div, form, fieldset, legend, label
+{
+ margin: 0;
+ padding: 0; 
+}
+
+table
+{
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+th, td
+{
+ text-align: left;
+ vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6, th, td, caption { font-weight:normal; }
+
+img { border: 0; }
+
+/* end reset */
+
+@import '../scss/cards';
+
+// vars
+// palette
+$text-color: rgba(0, 0, 0, 0.875);
+$decoy-green: #008800;
+$highlight: #ffbb00;
+$nav-color: #1a1a1a;
+
+$gutter: 10px;
+
+@mixin link-styles(){
+    color: $decoy-green;
+    text-decoration: none;
+    transition: color ease 0.3s;
+    &:hover{
+        color: lighten($decoy-green, 10%);
+    }
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 18px;
+    color: $text-color;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+#page-outer{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
+.navigation-narrow.open {
+    display: block;
+}
+
+.navigation-wide, .navigation-narrow{
+    display: none;
+}
+
+@media screen and (min-width: 832px){
+    .navigation-narrow, #navigation-btn{
+        display: none;
+    }
+    .navigation-wide{
+        display: block;
+    }
+}
+
+header{
+    @include card(2);
+    width: 100%;
+    background-color: $nav-color;
+    .navigation-wide{
+        height: 50px;
+        line-height: 50px;
+        a{
+            text-decoration: none;
+            display: inline-block;
+            color: white;
+            font-size: 0.8em;
+            height: 40px;
+            margin-right: 20px;
+            transition: color ease 0.3s;
+            &:hover{
+                color: lighten($decoy-green, 10%);
+            }
+            &.active{
+                border-bottom: 1px solid $highlight;
+            }
+        }
+    }
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 $gutter;
+    main{
+        max-width: 38em;
+        p, ul, ol{
+            line-height: 1.6em;
+            a {
+                @include link-styles;
+            }
+        }
+        img[alt="photo of headteacher"]{
+            float: left;
+            margin-top: 0.5em;
+            margin-right: 12px;
+            width: 200px;
+        }
+    }
+}
+
+
+
+
+table{
+    margin: 1em 0 2em 0;
+    tr, thead{
+        border-bottom: 2px solid #ccc;
+        &:last-child{
+            border-bottom: none;
+        }
+    }
+    td, th{
+        padding: $gutter;
+        text-align: left;
+        line-height: 1.35em;
+        font-size: 0.9em;
+        a{
+            @include link-styles;
+        }
+    }
+}
+
+.info-btn{
+    margin-bottom: $gutter;
+}
+
+@supports (display: grid){
+    .buttons-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-auto-rows: 75px;
+        gap: 5px;
+    }
+    .info-btn{
+        margin-bottom: 0;
+    }
+}
+
+.info-btn{
+    @include card(1);
+    background-color: $decoy-green;
+    padding: 12px;
+    border-radius: 2px;
+    transition: all ease 0.3s;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px $text-color;
+    &:hover{
+        cursor: pointer;
+        @include card(2);
+        background-color: lighten($decoy-green, 5%);
+    }
+}
+
+.governors-info > div {
+    width: 300px;
+    height: 75px;
+}
+
+.responsive-iframe{
+    border-color: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+}
+
+@supports (display: grid){
+    .image-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-gap: $gutter;
+    }
+}
+
+footer{
+    width: 100%;
+    border-top: 1px solid $decoy-green;
+    @include card(2);
+    margin-top: 30px;
+    padding-top: 20px;
+    .footer-outer{
+        width: 100%;
+        background-color: $decoy-green;
+        margin-top: 20px;
+        padding: 10px 0;
+        div{
+            color: white;
+            font-size: 0.8em;
+            a{
+                color: white;
+                transition: color ease 0.3s;
+                &:hover{
+                    color: $highlight;
+                }
+            }
+        }
+    }
+}
+
