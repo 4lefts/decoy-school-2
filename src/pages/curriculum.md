@@ -46,35 +46,37 @@ Please use these links to find detailed information about the curriculum for eac
 Have a look at our school prospectus, or talk to class teachers if you would like more information about our curriculum.
 If you would like a flavour of some of the rich learning experiences at Decoy School, please have a look at our Twitter feed.
 
-<info-btn
-    href="https://drive.google.com/open?id=0B76W__U5CTntazB2SDNKYnlldHM"
-    text="Nursery Curriculum">
-</info-btn>
-<info-btn
-    href="https://drive.google.com/open?id=0B76W__U5CTntd25PZjBiTGpCcTA"
-    text="Reception Curriculum">
-</info-btn>
-<info-btn
-    href="https://drive.google.com/file/d/0B76W__U5CTntVmMxUHNIcUlBSG8/view?usp=sharing"
-    text="Year 1 Curriculum">
-</info-btn>
-<info-btn
-    href="https://drive.google.com/file/d/0B76W__U5CTntZ1ZpRktrNFpubVE/view?usp=sharing"
-    text="Year 2 Curriculum">
-</info-btn>
-<info-btn
-    href="https://drive.google.com/file/d/0B76W__U5CTntYUJGSmhXcUtic28/view?usp=sharing"
-    text="Year 3 Curriculum">
-</info-btn>
-<info-btn
-    href="https://drive.google.com/file/d/0B76W__U5CTntWHI2cERnOV9VUkE/view?usp=sharing"
-    text="Year 4 Curriculum">
-</info-btn>
-<info-btn
-    href="https://drive.google.com/file/d/0B76W__U5CTntRkMtX3RyZDRjSlk/view?usp=sharing"
-    text="Year 5 Curriculum">
-</info-btn>
-<info-btn
-    href="https://drive.google.com/file/d/0B76W__U5CTntcnBSVzd6ZV9VWE0/view?usp=sharing"
-    text="Year 6 Curriculum">
-</info-btn>
+<div class="buttons-grid">
+    <info-btn
+        href="https://drive.google.com/open?id=0B76W__U5CTntazB2SDNKYnlldHM"
+        text="Nursery Curriculum">
+    </info-btn>
+    <info-btn
+        href="https://drive.google.com/open?id=0B76W__U5CTntd25PZjBiTGpCcTA"
+        text="Reception Curriculum">
+    </info-btn>
+    <info-btn
+        href="https://drive.google.com/file/d/0B76W__U5CTntVmMxUHNIcUlBSG8/view?usp=sharing"
+        text="Year 1 Curriculum">
+    </info-btn>
+    <info-btn
+        href="https://drive.google.com/file/d/0B76W__U5CTntZ1ZpRktrNFpubVE/view?usp=sharing"
+        text="Year 2 Curriculum">
+    </info-btn>
+    <info-btn
+        href="https://drive.google.com/file/d/0B76W__U5CTntYUJGSmhXcUtic28/view?usp=sharing"
+        text="Year 3 Curriculum">
+    </info-btn>
+    <info-btn
+        href="https://drive.google.com/file/d/0B76W__U5CTntWHI2cERnOV9VUkE/view?usp=sharing"
+        text="Year 4 Curriculum">
+    </info-btn>
+    <info-btn
+        href="https://drive.google.com/file/d/0B76W__U5CTntRkMtX3RyZDRjSlk/view?usp=sharing"
+        text="Year 5 Curriculum">
+    </info-btn>
+    <info-btn
+        href="https://drive.google.com/file/d/0B76W__U5CTntcnBSVzd6ZV9VWE0/view?usp=sharing"
+        text="Year 6 Curriculum">
+    </info-btn>
+</div>

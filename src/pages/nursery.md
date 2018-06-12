@@ -32,10 +32,10 @@ Lunch Club: 12:00am - 1:00pm
 
 Afternoon Session: 1:00pm - 3:30pm
 
-** Devon County Council - Early Years & Childcare Website - please click [here][4]. **
+**Devon County Council - Early Years & Childcare Website - please click [here][4].**
 
-** September places for children who will be 3 years old before August 30th will be allocated at the beginning of March.
-Parents are advised to apply as early as possible as places are offered with a term's notice. **
+**September places for children who will be 3 years old before August 30th will be allocated at the beginning of March.
+Parents are advised to apply as early as possible as places are offered with a term's notice.**
 
 In addition, any child registered to our nursery is eligible to use our Breakfast & After School Clubs. Our Breakfast Club runs 7:55am - 8:55am and our After School Club runs 3:30pm - 6:00pm with the additional option for a 5:00pm collection. Further information can be found [here][2].
 

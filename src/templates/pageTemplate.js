@@ -17,7 +17,7 @@ const makeToc = ({headings}) => {
         )
     })
     return (
-        <aside>
+        <aside className="toc">
             <h3>On this page:</h3>
             <ul>{h2s}</ul>
         </aside>
@@ -29,7 +29,7 @@ export default ({data}) => {
     const {frontmatter, htmlAst, headings} = markdownRemark
     const tableOfContents = frontmatter.toc ? makeToc({headings}) : null
     return (
-        <div className="container">
+        <div className="container page-content">
             <h1>{frontmatter.title}</h1>
             {tableOfContents}
             <main>

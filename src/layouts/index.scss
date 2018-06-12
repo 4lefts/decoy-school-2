@@ -64,11 +64,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5em;
 }
 
-#page-outer{
-    min-height: 100vh;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 100%;
+@supports(display: grid){
+    #page-outer{
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: 100%;
+    }
 }
 
 .navigation-narrow.open {
@@ -134,8 +136,32 @@ header{
     }
 }
 
-
-
+@supports(display: grid){
+    .page-content{
+        display: grid;
+        grid-template-areas: 
+            "title title"
+            "main aside";
+        grid-gap: 0.2em 3em;
+        h1{
+            grid-area: title;
+        }
+        main{
+            grid-area: main;
+        }
+        aside{
+            grid-area: aside;
+        }
+    }
+    @media screen and (max-width: 832px){
+        .page-content{
+            grid-template-areas:
+                "title"
+                "aside"
+                "main"
+        }
+    }
+}
 
 table{
     margin: 1em 0 2em 0;
@@ -153,11 +179,27 @@ table{
         a{
             @include link-styles;
         }
+        ul{
+            margin: 0;
+        }
     }
 }
 
 .info-btn{
-    margin-bottom: $gutter;
+    @include card(1);
+    background-color: $decoy-green;
+    max-width: 300px;
+    padding: 12px;
+    border-radius: 2px;
+    transition: all ease 0.3s;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px $text-color;
+    &:hover{
+        cursor: pointer;
+        @include card(2);
+        background-color: lighten($decoy-green, 5%);
+    }
 }
 
 @supports (display: grid){
@@ -172,27 +214,6 @@ table{
     }
 }
 
-.info-btn{
-    @include card(1);
-    background-color: $decoy-green;
-    padding: 12px;
-    border-radius: 2px;
-    transition: all ease 0.3s;
-    color: white;
-    text-decoration: none;
-    text-shadow: 1px 1px 2px $text-color;
-    &:hover{
-        cursor: pointer;
-        @include card(2);
-        background-color: lighten($decoy-green, 5%);
-    }
-}
-
-.governors-info > div {
-    width: 300px;
-    height: 75px;
-}
-
 .responsive-iframe{
     border-color: rgba(0, 0, 0, 0);
     background: rgba(0, 0, 0, 0);
@@ -203,6 +224,59 @@ table{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         grid-gap: $gutter;
+    }
+}
+
+.sidebar{
+    font-size: 0.9em;
+    max-width: 15em;
+    border-left: 1px solid $highlight;
+    padding-left: 2em;
+    h3  {
+        margin-bottom: 1em;
+    }
+    a {
+        @include link-styles();
+        margin-bottom: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            max-height: 3em;
+            margin-bottom: 0.2em;
+        }
+    }
+}
+
+.toc{
+    font-size: 0.9em;
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li{
+            display: inline-block;
+            padding-right: 2em;
+            padding-bottom: 0.65em;
+            a{
+                @include link-styles();
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 832px){
+    .toc {
+        h3{
+            margin-top: 1em;
+            margin-bottom: 0.8em;
+        }
+            ul li{
+            display: block;
+            padding-right: 0;
+        }
     }
 }
 
