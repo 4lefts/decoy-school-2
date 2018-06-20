@@ -1,6 +1,6 @@
 ---
 path: "/"
-title: "Welcome to Decoy Community Primary School"
+title: "Welcome"
 navTitle: "Home"
 order: 1
 toc: false

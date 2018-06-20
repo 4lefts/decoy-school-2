@@ -115,24 +115,62 @@ header{
     }
 }
 
+main{
+    max-width: 38em;
+    p, ul, ol{
+        line-height: 1.6em;
+        a {
+            @include link-styles;
+        }
+    }
+    img[alt="photo of headteacher"]{
+        float: left;
+        margin-top: 0.5em;
+        margin-right: 12px;
+        width: 200px;
+    }
+}
+
 .container{
     max-width: 960px;
     margin: 0 auto;
     padding: 0 $gutter;
-    main{
-        max-width: 38em;
-        p, ul, ol{
-            line-height: 1.6em;
-            a {
-                @include link-styles;
+}
+
+.homepage-content{
+   
+    .hero{
+        height: 800px;
+        background:
+            url("http://via.placeholder.com/2560x800") 
+            center
+            no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1{
+            color: white;
+            font-size: 10vmin;
+            padding: 0.3em 1em 0.1em 0.3em;
+            border: 3px solid white;
+            margin: 0;
+            // padding: 0;
+            span{
+                font-size: 0.55em;
             }
         }
-        img[alt="photo of headteacher"]{
-            float: left;
-            margin-top: 0.5em;
-            margin-right: 12px;
-            width: 200px;
-        }
+    }
+    main, h1{
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 $gutter;
+    }
+}
+
+@supports(display: grid){
+    .homepage-content{
+        display: grid;
+
     }
 }
 
@@ -232,7 +270,7 @@ table{
     max-width: 15em;
     border-left: 1px solid $highlight;
     padding-left: 2em;
-    h3  {
+    h3{
         margin-bottom: 1em;
     }
     a {
@@ -247,6 +285,10 @@ table{
             margin-bottom: 0.2em;
         }
     }
+    // .twitter-timeline{
+    //     height: 400px;
+    //     width: 100%;
+    // }
 }
 
 .toc{

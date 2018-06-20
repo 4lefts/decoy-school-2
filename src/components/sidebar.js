@@ -11,7 +11,8 @@ import twlogo from '../images/logos/twlogo.png'
 const Sidebar = () => {
     return (
         <aside className="sidebar">
-            <h3>Useful Links:</h3>
+        <a className="twitter-timeline" href="https://twitter.com/DecoyPri?ref_src=twsrc%5Etfw">Tweets by DecoyPri</a><script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+		<h3>Useful Links:</h3>
             <a href="https://public.govdelivery.com/accounts/UKDEVONCC/subscriber/new?qsp=UKDEVONCC_4" target="_blank">
                 <img src={snowflake} alt="link to sign up for school closure alerts" />
                 <span>Click here to sign up with Devon County Council to receive school closure alerts by e-mail.</span>

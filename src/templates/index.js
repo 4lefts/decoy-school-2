@@ -6,8 +6,10 @@ export default ({data}) => {
     const {markdownRemark, allFile} = data
     const {frontmatter, html, headings} = markdownRemark
     return (
-        <div className="container page-content">
-            <h1>{frontmatter.title}</h1>
+        <div className="homepage-content">
+            <div className="hero">
+                <h1><span>Welcome to<br /></span>Decoy<br />Community<br />Primary<br />School</h1>
+            </div>
             <main dangerouslySetInnerHTML={{__html: html}} />
             <Sidebar />
         </div>
