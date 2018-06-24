@@ -10,8 +10,10 @@ export default ({data}) => {
             <div className="hero">
                 <h1><span>Welcome to<br /></span>Decoy<br />Community<br />Primary<br />School</h1>
             </div>
-            <main dangerouslySetInnerHTML={{__html: html}} />
-            <Sidebar />
+            <div className="container">
+                <main dangerouslySetInnerHTML={{__html: html}} />
+                <Sidebar />
+            </div>
         </div>
     )
 }

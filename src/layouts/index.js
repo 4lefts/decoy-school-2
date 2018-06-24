@@ -20,6 +20,10 @@ const Layout = ({ children, data }) => {
           {
             href: 'https://fonts.googleapis.com/css?family=Lato',
             rel: 'stylesheet'
+          },
+          {
+            href: 'https://fonts.googleapis.com/icon?family=Material+Icons',
+            rel: 'stylesheet'
           }
         ]}
       />

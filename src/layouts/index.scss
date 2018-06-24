@@ -73,9 +73,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.navigation-narrow.open {
-    display: block;
-}
+//navbar stuff
 
 .navigation-wide, .navigation-narrow{
     display: none;
@@ -83,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (min-width: 832px){
     .navigation-narrow, #navigation-btn{
-        display: none;
+        display: none !important; //since it's opened by js...
     }
     .navigation-wide{
         display: block;
@@ -94,22 +92,49 @@ header{
     @include card(2);
     width: 100%;
     background-color: $nav-color;
+    #navigation-btn{
+        background-color: $nav-color;
+        border: none;
+        outline: none;
+        padding-top: 5px;
+        color: white;
+        height: 50px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 0.8em;
+        height: 40px;
+        transition: all ease 0.3s;
+        
+    }
     .navigation-wide{
         height: 50px;
         line-height: 50px;
         a{
-            text-decoration: none;
             display: inline-block;
-            color: white;
-            font-size: 0.8em;
-            height: 40px;
             margin-right: 20px;
-            transition: color ease 0.3s;
             &:hover{
                 color: lighten($decoy-green, 10%);
             }
             &.active{
                 border-bottom: 1px solid $highlight;
+            }
+        }
+    }
+    .navigation-narrow{
+        a{
+            height: 40px;
+            line-height: 40px;
+            display: block;
+            padding: 0 $gutter;
+            &:hover{
+                color: lighten($decoy-green, 10%);
+                background-color: lighten($nav-color, 10%);
+            }
+            &.active{
+                color: $highlight;
+                background-color: lighten($nav-color, 10%);
             }
         }
     }
@@ -138,7 +163,6 @@ main{
 }
 
 .homepage-content{
-   
     .hero{
         height: 800px;
         background:
@@ -152,25 +176,37 @@ main{
             color: white;
             font-size: 10vmin;
             padding: 0.3em 1em 0.1em 0.3em;
-            border: 3px solid white;
+            border-bottom-right-radius: 20%;
+            background-color: rgba(0, 0, 0, 0.3);
             margin: 0;
-            // padding: 0;
             span{
                 font-size: 0.55em;
             }
         }
     }
-    main, h1{
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 0 $gutter;
-    }
 }
 
 @supports(display: grid){
     .homepage-content{
-        display: grid;
-
+        .container{
+            display: grid;
+            grid-template-areas:
+                "main sidebar";
+            grid-gap: 0.2em 3em;
+        }
+        main{
+            grid-area: main;
+        }
+        .sidebar{
+            grid-area: sidebar;
+        }
+    }
+    @media screen and (max-width: 832px){
+        .homepage-content .container{
+            grid-template-areas:
+                "main"
+                "sidebar";
+        }        
     }
 }
 
@@ -225,6 +261,7 @@ table{
 
 .info-btn{
     @include card(1);
+    position: relative;
     background-color: $decoy-green;
     max-width: 300px;
     padding: 12px;
@@ -237,6 +274,12 @@ table{
         cursor: pointer;
         @include card(2);
         background-color: lighten($decoy-green, 5%);
+    }
+    .launch-icon{
+        text-shadow: 1px 1px 2px $text-color;
+        position: absolute;
+        right: 7px;
+        bottom: 7px;
     }
 }
 
@@ -280,6 +323,7 @@ table{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: justify;
         img{
             max-height: 3em;
             margin-bottom: 0.2em;
