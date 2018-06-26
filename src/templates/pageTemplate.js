@@ -1,10 +1,14 @@
 import React from 'react'
 import rehypeReact from 'rehype-react'
 import InfoBtn from '../components/infoBtn'
+import personFigure from '../components/personFigure'
 
 const renderAst = new rehypeReact({
     createElement: React.createElement,
-    components: {'info-btn': InfoBtn}
+    components: {
+        'info-btn': InfoBtn,
+        'person-pic': personFigure,
+    }
 }).Compiler
 
 const makeToc = ({headings}) => {

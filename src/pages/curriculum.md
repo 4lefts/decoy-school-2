@@ -4,6 +4,7 @@ title: "Curriculum"
 navTitle: "Curriculum"
 order: 3
 toc: true
+template: "pageTemplate"
 ---
 
 From September 2014 a new National Curriculum has been introduced in England with new programmes of study and attainment targets.

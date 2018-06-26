@@ -4,6 +4,7 @@ title: "Breakfast and After School Clubs"
 navTitle: "BASC"
 order: 8
 toc: true
+template: "pageTemplate"
 ---
 
 *For more information about the service we provide including our Terms & Conditions and application documents please click [here][2].*

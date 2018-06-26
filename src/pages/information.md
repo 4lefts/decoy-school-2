@@ -4,6 +4,7 @@ title: "Information"
 navTitle: "Information"
 order: 5
 toc: true
+template: "pageTemplate"
 ---
 
 ## Job Vacancies

@@ -4,6 +4,7 @@ title: "First Steps Nursery"
 navTitle: "Nursery"
 order: 4
 toc: true
+template: "pageTemplate"
 ---
 
 ## Nursery Info

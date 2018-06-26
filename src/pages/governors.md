@@ -4,6 +4,7 @@ title: "Our Governors"
 navTitle: "Governors"
 order: 9
 toc: false
+template: "pictureGridTemplate"
 ---
 Details of the make-up of our governing body can be found [here][1]. All Governors can be contacted through the Clerk to Governors, Mr Peter Osborne - <a href="mailto:posborne@decoyschool.co.uk">posborne@decoyschool.co.uk</a>.
 

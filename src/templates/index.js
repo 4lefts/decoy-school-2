@@ -1,7 +1,6 @@
 import React from 'react'
 import Sidebar from '../components/sidebar'
 
-
 export default ({data}) => {
     const {markdownRemark, allFile} = data
     const {frontmatter, html, headings} = markdownRemark

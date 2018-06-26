@@ -4,6 +4,7 @@ title: "Admissions Information"
 navTitle: "Admissions"
 order: 7
 toc: true
+template: "pageTemplate"
 ---
 
 ## School Admissions

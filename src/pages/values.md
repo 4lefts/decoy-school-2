@@ -4,6 +4,7 @@ title: "Our Values"
 navTitle: "Values"
 order: 2
 toc: true
+template: "pageTemplate"
 ---
 ### *Inspiring Positive Futures*
 

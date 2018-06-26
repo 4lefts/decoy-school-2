@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import Footer from '../components/footer'
-import './index.scss'
+import '../scss/index.scss'
 
 const Layout = ({ children, data }) => {
   const footerLogos = data.allFile.edges.map(x => x.node.publicURL)
@@ -19,10 +19,6 @@ const Layout = ({ children, data }) => {
         link={[
           {
             href: 'https://fonts.googleapis.com/css?family=Lato',
-            rel: 'stylesheet'
-          },
-          {
-            href: 'https://fonts.googleapis.com/icon?family=Material+Icons',
             rel: 'stylesheet'
           }
         ]}

@@ -4,6 +4,7 @@ title: "Safety Information"
 navTitle: "Safety"
 order: 6
 toc: true
+template: "pageTemplate"
 ---
 
 ## Bullying Resources

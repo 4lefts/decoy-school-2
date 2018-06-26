@@ -25,7 +25,7 @@ img { border: 0; }
 
 /* end reset */
 
-@import '../scss/cards';
+@import './cards';
 
 // vars
 // palette
@@ -35,6 +35,7 @@ $highlight: #ffbb00;
 $nav-color: #1a1a1a;
 
 $gutter: 10px;
+$text-width: 38em;
 
 @mixin link-styles(){
     color: $decoy-green;
@@ -111,6 +112,8 @@ header{
     .navigation-wide{
         height: 50px;
         line-height: 50px;
+        display: flex;
+        justify-content: space-between;
         a{
             display: inline-block;
             margin-right: 20px;
@@ -119,6 +122,9 @@ header{
             }
             &.active{
                 border-bottom: 1px solid $highlight;
+            }
+            &:last-child{
+                margin-right: 0;
             }
         }
     }
@@ -140,9 +146,10 @@ header{
     }
 }
 
+
 main{
-    max-width: 38em;
     p, ul, ol{
+        max-width: $text-width;
         line-height: 1.6em;
         a {
             @include link-styles;
@@ -259,6 +266,7 @@ table{
     }
 }
 
+//button link stuff
 .info-btn{
     @include card(1);
     position: relative;
@@ -272,7 +280,7 @@ table{
     text-shadow: 1px 1px 2px $text-color;
     &:hover{
         cursor: pointer;
-        @include card(2);
+        @include card(3);
         background-color: lighten($decoy-green, 5%);
     }
     .launch-icon{
@@ -294,6 +302,23 @@ table{
         margin-bottom: 0;
     }
 }
+
+//people photo grid stuff
+    .people-grid{
+        margin: $gutter;
+        max-width: 1400px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+        gap: $gutter;
+        // justify-content: space-between;
+        figure{
+            margin: 0;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
 
 .responsive-iframe{
     border-color: rgba(0, 0, 0, 0);

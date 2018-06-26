@@ -4,6 +4,7 @@ title: "Contact Us"
 navTitle: "Contact"
 order: 11
 toc: false
+template: "pageTemplate"
 ---
 
 **Headteacher: Mrs H. Poustie**  

@@ -2,8 +2,9 @@ const path = require(`path`)
 
 exports.createPages = ({boundActionCreators, graphql}) => {
     const {createPage} = boundActionCreators
-    const pageTemplate = path.resolve(`src/templates/pageTemplate.js`)
     const indexTemplate = path.resolve(`src/templates/index.js`)
+    const pageTemplate = path.resolve(`src/templates/pageTemplate.js`)
+    const pictureGridTemplate = path.resolve(`src/templates/picturesTemplate.js`)
     return graphql(`
         {
             allMarkdownRemark{
@@ -15,6 +16,7 @@ exports.createPages = ({boundActionCreators, graphql}) => {
                             navTitle
                             order
                             toc
+                            template
                         }
                     }
                 }
@@ -25,9 +27,22 @@ exports.createPages = ({boundActionCreators, graphql}) => {
             return Promise.reject(res.errors)
         }
         res.data.allMarkdownRemark.edges.forEach(({node}) => {
+            let template
+            console.log(node.frontmatter.template)
+            switch (node.frontmatter.template) {
+                case "indexTemplate":
+                    template = indexTemplate
+                    break
+                case "pictureGridTemplate":
+                    template = pictureGridTemplate
+                    break
+                default:
+                    template = pageTemplate
+                    break
+            }
             createPage({
                 path: node.frontmatter.path,
-                component: node.frontmatter.path === '/' ? indexTemplate : pageTemplate,
+                component: template,//node.frontmatter.template === '/' ? indexTemplate : pageTemplate,
                 context: {} //additional data can be passed here
             })
         })

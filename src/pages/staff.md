@@ -4,7 +4,50 @@ title: "Our Staff"
 navTitle: "Staff"
 order: 10
 toc: false
+template: "pictureGridTemplate"
 ---
+Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco officia ea. Non cupidatat tempor in non. Labore deserunt velit aliquip dolore laboris minim exercitation. In aute minim laborum incididunt consequat esse aliquip anim irure exercitation. Velit in velit esse est sunt. Ut mollit officia consequat commodo ut occaecat laboris amet.
+
+## Management Team
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Heather Poustie, Headteacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mr Dave Lee, Deputy Head"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Vicky Stables, SENDCO"
+    ></person-pic>
+</div>
+
+## Year 6 Team
+
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Becky Hughes, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mr S Ball, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Mandy Dower, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Donna Minear, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Sharon Lang, teaching assistant"
+    ></person-pic>
+</div>
 
 ## Headteacher
 
