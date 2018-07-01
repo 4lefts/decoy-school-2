@@ -18,7 +18,7 @@ const Layout = ({ children, data }) => {
         ]}
         link={[
           {
-            href: 'https://fonts.googleapis.com/css?family=Lato',
+            href: 'https://fonts.googleapis.com/css?family=Lato|Comfortaa|Merriweather',
             rel: 'stylesheet'
           }
         ]}

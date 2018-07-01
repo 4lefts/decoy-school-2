@@ -1,6 +1,6 @@
 ---
 path: "/governors"
-title: "Our Governors"
+title: "School Governors"
 navTitle: "Governors"
 order: 9
 toc: false
@@ -14,5 +14,66 @@ Details of the make-up of our governing body can be found [here][1]. All Governo
         text="Governors Information">
     </info-btn>
 </div>
+
+## Our Governors
+
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="An Other, a governor"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="An Other, a governor"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="An Other, a governor"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="An Other, a governor"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="An Other, a governor"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="An Other, a governor"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="An Other, a governor"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="An Other, a governor"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="An Other, a governor"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="An Other, a governor"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="An Other, a governor"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="An Other, a governor"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="An Other, a governor"
+    ></person-pic>
+</div>
+
+
+
+
 
 [1]: https://drive.google.com/open?id=0B9Td7Cx_yUlTdUhzbVB6N3NmN3M

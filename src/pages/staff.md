@@ -33,7 +33,7 @@ Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco of
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mr S Ball, class teacher"
+        caption="Mr Stephen Ball, class teacher"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
@@ -49,67 +49,234 @@ Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco of
     ></person-pic>
 </div>
 
-## Headteacher
+## Year 5 Team
 
-Mrs H. Poustie
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mr Craig Veal, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mr John Smith, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Gill Gray, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Denise Rogers, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Maria Wright, teaching assistant"
+    ></person-pic>
+</div>
 
-## Pupil Premium Champion
+## Year 4 Team
 
-Mrs V. Stables
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Yvonne Morrell, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Ms Rachel Lawton, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Emma Lidbury, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Kim Braund, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Charlotte Finch, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Mandie Redfern, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs An Other, teaching assistant"
+    ></person-pic>
+</div>
 
-## SEND Co-Ordinator
-#### (Special Eduactional Needs and Disabilities)
+## Year 3 Team
 
-Mr R. Scott
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Ms Emma Pryde, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Maggie Stevens, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Samdra Cartwright, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mr James Kilkelly, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Jan Sweatman, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Tina Hudson, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Tara Cleary, teaching assistant"
+    ></person-pic>
+</div>
 
-## Year 6 Teachers
+## Year 2 Team
 
-Mr S. Ball, Miss J. Fearon
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Miss Helena Thomsett, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Charlotte Hodgson, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Amanda Donnai, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Vicky Weir, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Lisa Morgan-Anstee, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Debbie Connor, teaching assistant"
+    ></person-pic>
+</div>
 
-## Year 5 Teachers
+## Year 1 Team
 
-Mr J. Kilkelly, Mr R. Clutterbuck
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Gill Quantrell, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Miss Maria Luff, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Helen Cammack, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Becci Osborne, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Lisa Cundy-Knight, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Jo Huxtable, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs An Other, teaching assistant"
+    ></person-pic>
+</div>
 
-## Year 4 Teachers
+## Reception Team
 
-Mrs R. Hughes, Mrs Y. Morrell
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Emily Simpson, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Ms Sarah Fraser, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Helen Cammack, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Ms Helen D?, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Helen Yip, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Marie Cogavin, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Annabelle Perkins, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Tania Bull, teaching assistant"
+    ></person-pic>
+</div>
 
-## Year 3 Teachers
+## Nursery Team
 
-Miss L. Martin, Mrs E. Pryde,
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Cassie Smith, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Lousie Iddon, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Emma Griffiths, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Marie Hindom, teaching assistant"
+    ></person-pic>
+</div>
 
-## Year 2 Teachers
+## Administration Team
 
-Mrs A. Donnai, Mrs E. Lidbury, Mrs C. Hodgson
-
-## Year 1 Teachers
-
-Miss H. Thomsett, Miss E. Steer, Mrs G. Quantrell
-
-## Reception Teachers
-
-Miss L. Bristow, Mrs H. Cammack
-
-## Nursery Teachers
-
-Mrs C. Smith
-
-## P.E. Specialist Teacher
-
-Mrs D. Flory
-
-## Modern Foreign Languages
-
-Mrs L. Cheeseworth
-
-## Business Manager
-
-Mrs M. Carrodus
-
-## Attendance Officer
-
-Mrs. L. Coe
-
-## Administrative Assistant
-
-Miss. D. O'Halloran
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Ms An Other, business manager"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Ms Donna O'Halloran, administrative assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Ms An Other, administrative assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Lee Coe, attendance officer"
+    ></person-pic>
+</div>

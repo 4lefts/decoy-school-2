@@ -25,10 +25,10 @@ At Decoy Community Primary School, we aim to:
 
 At Decoy Community Primary School our four values enable the children to become effective members of the school community.
 
-- Try your best.
-- Think of others.
-- Make the right choices.
-- Have a go.
+- ![Try your best image](https://via.placeholder.com/50x50) Try your best.
+- ![Try your best image](https://via.placeholder.com/50x50) Think of others.
+- ![Try your best image](https://via.placeholder.com/50x50) Make the right choices.
+- ![Try your best image](https://via.placeholder.com/50x50) Have a go.
 
 Our values are embedded in our school environment in addition to our teaching and learning to ensure that they are at the forefront of what we do. As well as supporting our children with how they relate to others, our values also enable our children to become better learners. Children are taught that the purpose of our values is to support them to achieve in school and also in life.
 
