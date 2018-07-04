@@ -296,6 +296,8 @@ table{
     padding: 12px;
     border-radius: 2px;
     transition: all ease 0.3s;
+    font-family: $heading-text;
+    font-size: 1.2em;
     color: white;
     text-decoration: none;
     text-shadow: 1px 1px 2px $text-color;
@@ -318,6 +320,7 @@ table{
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-auto-rows: 75px;
         gap: 5px;
+        margin-top: 2em;
     }
     .info-btn{
         margin-bottom: 0;
