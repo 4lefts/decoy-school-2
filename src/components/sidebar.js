@@ -11,7 +11,7 @@ import twlogo from '../images/logos/twlogo.png'
 const Sidebar = () => {
     return (
         <aside className="sidebar">
-            <a className="twitter-timeline" href="https://twitter.com/DecoyPri?ref_src=twsrc%5Etfw">Tweets by DecoyPri</a><script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+            <a className="twitter-timeline" href="https://twitter.com/DecoyPri?ref_src=twsrc%5Etfw" dataHeight="300">Tweets by DecoyPri</a><script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
             <h3>Useful Links:</h3>
             <div className="useful-links">
                 <a href="https://public.govdelivery.com/accounts/UKDEVONCC/subscriber/new?qsp=UKDEVONCC_4" target="_blank">
