@@ -1,4 +1,5 @@
 import React from 'react'
+// import {TimeLine} from 'react-twitter-widgets'
 
 import abacus from '../images/logos/abacus.png'
 import fblogo from '../images/logos/fblogo.png'
@@ -11,8 +12,7 @@ import twlogo from '../images/logos/twlogo.png'
 const Sidebar = () => {
     return (
         <aside className="sidebar">
-        <a className="twitter-timeline" dataWidth="300" dataHeight="400" href="https://twitter.com/DecoyPri?ref_src=twsrc%5Etfw">Tweets by DecoyPri</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            {/* <a className="twitter-timeline" href="https://twitter.com/DecoyPri?ref_src=twsrc%5Etfw" dataHeight="300">Tweets by DecoyPri</a><script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script> */}
+            <a className="twitter-timeline" data-width="250" data-height="400" href="https://twitter.com/DecoyPri?ref_src=twsrc%5Etfw">Tweets by DecoyPri</a>
             <h3>Useful Links:</h3>
             <div className="useful-links">
                 <a href="https://public.govdelivery.com/accounts/UKDEVONCC/subscriber/new?qsp=UKDEVONCC_4" target="_blank">
