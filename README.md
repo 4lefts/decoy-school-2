@@ -21,3 +21,5 @@ Then you can run it by:
 cd gatsby-example-site
 npm run develop
 ```
+
+** N.B need to change application url in OAuth apps in github developer settings when setting a proper url
