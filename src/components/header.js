@@ -14,6 +14,7 @@ const toggleMenu = () => {
 
 const closeMenu = () => {
   document.querySelector('.navigation-narrow').style.display = 'none'
+  document.querySelector('#navigation-btn').src = menuIcon
 }
 
 const Header = ({pages, siteTitle}) => {

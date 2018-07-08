@@ -36,6 +36,7 @@ $nav-color: #1a1a1a;
 
 $gutter: 10px;
 $text-width: 38em;
+$breakpoint: 832px;
 
 $body-text: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
 $heading-text: 'Lato', Helvetica, Arial, sans-serif;
@@ -60,8 +61,7 @@ html {
 body {
     font-size: 16px;
     color: $text-color;
-    // font-family: 'Lato', sans-serif;
-    font-family: $body-text
+    font-family: $body-text;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
-@media screen and (min-width: 832px){
+@media screen and (min-width: $breakpoint){
     .navigation-narrow, #navigation-btn{
         display: none !important; //since it's opened by js...
     }
@@ -228,7 +228,7 @@ main{
             grid-area: sidebar;
         }
     }
-    @media screen and (max-width: 832px){
+    @media screen and (max-width: $breakpoint){
         .homepage-content .container{
             grid-template-areas:
                 "main"
@@ -254,7 +254,7 @@ main{
             grid-area: aside;
         }
     }
-    @media screen and (max-width: 832px){
+    @media screen and (max-width: $breakpoint){
         .page-content{
             grid-template-areas:
                 "title"
@@ -328,21 +328,26 @@ table{
 }
 
 //people photo grid stuff
-    .people-grid{
-        margin: $gutter;
-        max-width: 1400px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
-        gap: $gutter;
-        figure{
-            font-family: $heading-text;
-            margin: 0;
-            img{
-                max-width: 100%;
-            }
+.people-grid{
+    margin: $gutter;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+    gap: $gutter;
+    figure{
+        font-family: $heading-text;
+        margin: 0;
+        img{
+            @include card(1);
+            max-width: 100%;
+            border-radius: 2px;
+        }
+        figcaption{
+            margin: 0.6em 0;
         }
     }
+}
 
 .responsive-iframe{
     border-color: rgba(0, 0, 0, 0);
@@ -358,30 +363,78 @@ table{
 }
 
 .sidebar{
+    // font-size: 0.9em;
+    // font-family: $heading-text;
+    // border: none;
+    // display: flex;
+    // flex-direction: row;
+    // max-width: 15em;
+    // flex-wrap: wrap;
+    // .twitter-timeline{
+    //     height: 400px;
+    //     flex-basis: 100%;
+    // }
+    // h3{
+    //     margin-bottom: 1em;
+    // }
+    // a {
+    //     @include link-styles();
+    //     margin-bottom: 2em;
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    //     text-align: justify;
+    //     img{
+    //         max-height: 3em;
+    //         margin-bottom: 0.2em;
+    //     }
+    // }
     font-size: 0.9em;
     font-family: $heading-text;
-    max-width: 15em;
-    border-left: 1px solid $highlight;
-    padding-left: 2em;
-    h3{
-        margin-bottom: 1em;
-    }
-    a {
-        @include link-styles();
-        margin-bottom: 2em;
+    .useful-links{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: justify;
-        img{
-            max-height: 3em;
-            margin-bottom: 0.2em;
+        flex-direction: row;
+        flex-wrap: wrap;
+        a{
+            @include link-styles();
+            display: block;
+            max-width: 15em;
+            margin: $gutter;
+            padding: $gutter;
+            text-align: center;
+            border: none;
+            img{
+                text-align: center;
+                margin: $gutter auto;
+                max-height: 3em;
+                display: block;
+            }
         }
     }
     .twitter-timeline{
-        height: 400px;
+        @include link-styles();
+        display: block;
+        height: 300px;
         width: 100%;
+    }
+}
+
+@media screen and (min-width: $breakpoint){
+    .sidebar{
+        padding-left: 2em;
+        border-left: 1px solid $highlight;
+        .useful-links{
+            flex-direction: column;
+            a{
+                margin: 0;
+                padding: $gutter 0;
+                border-bottom: 1px solid lighten($decoy-green, 10%);
+                &:last-of-type, &:first-of-type{
+                    border: none;
+                }
+            }
+        }
     }
 }
 
@@ -403,7 +456,7 @@ table{
     }
 }
 
-@media screen and (min-width: 832px){
+@media screen and (min-width: $breakpoint){
     .toc {
         h3{
             margin-top: 1em;
