@@ -1,13 +1,8 @@
 ---
-path: "/"
-title: "Welcome"
-navTitle: "Home"
-order: 1
+title: Welcome
 toc: false
-template: "indexTemplate"
 ---
-
-![photo of headteacher](https://via.placeholder.com/300x300) On behalf of the children, staff, and governors I should like to welcome you to Decoy Primary School.
+![photo of headteacher](https://via.placeholder.com/300x300) On behalf of the childrens, staff, and governors I should like to welcome you to Decoy Primary School.
 
 Our school vision is underpinned by our four values which are: ‘Have a Go’, ‘Make the Right Choices’, ‘Do your Best’, ‘Think of Others’ and our golden rule which is: 'Treat other people as you would like them to treat you'. These values are embedded in the culture of the school which has a welcoming and vibrant atmosphere.  
 
@@ -17,6 +12,6 @@ Decoy is a Community Primary School and we work closely with families to support
 
 I hope our website gives you a glimpse of what we do and enough information for you to want to find out more. If you have not already visited the school, we would be delighted to meet you. Please contact us either by telephone or email to arrange a visit.
 
-Kind regards,  
-Mrs Heather Poustie  
+Kind regards,\
+Mrs Heather Poustie\
 Headteacher
