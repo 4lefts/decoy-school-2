@@ -28,7 +28,6 @@ exports.createPages = ({boundActionCreators, graphql}) => {
         }
         res.data.allMarkdownRemark.edges.forEach(({node}) => {
             let template
-            console.log(node.frontmatter.template)
             switch (node.frontmatter.template) {
                 case "indexTemplate":
                     template = indexTemplate

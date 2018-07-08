@@ -1,0 +1,19 @@
+backend:
+  name: "github"
+  repo: "decoy-school/decoy-school-2"
+
+media_folder: static/assets
+
+collections:
+  - name: pages
+    label: pages
+    folder: src/pages
+    create: false
+    slug: {{slug}}
+    fields: 
+      - {name: title, label: Title, widget: string}
+      - {name: "toc", label: Table of Contents, widget: boolean, default: false}
+      - {name: body, label: Body, widget: markdown}
+    editor:
+      preview: true
+  

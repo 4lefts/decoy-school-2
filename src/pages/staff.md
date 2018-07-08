@@ -124,7 +124,7 @@ Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco of
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mr James Kilkelly, teaching assistant"
+        caption="Mr James Kilkelly, class teacher"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
@@ -157,7 +157,7 @@ Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco of
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Vicky Weir, teaching assistant"
+        caption="Mrs Vicki Weir, teaching assistant"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
