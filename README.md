@@ -22,11 +22,12 @@ cd gatsby-example-site
 npm run develop
 ```
 
-** N.B need to change application url in OAuth apps in github developer settings when setting a proper url **
+**N.B need to change application url in OAuth apps in github developer settings when setting a proper url**
 
 ### To do
 
 - css for i.e. 11 - grid stuff obviously doesn't work. Button grids, people grids, sidebar position, tocs. 
+- cookie consent notice.
 - login (github account) for Donna (and new Steph)
 - links (check all), docs - curriculum documents, links to these.
 
