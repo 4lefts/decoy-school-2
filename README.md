@@ -22,4 +22,15 @@ cd gatsby-example-site
 npm run develop
 ```
 
-** N.B need to change application url in OAuth apps in github developer settings when setting a proper url
+** N.B need to change application url in OAuth apps in github developer settings when setting a proper url **
+
+### To do
+
+- css for i.e. 11 - grid stuff obviously doesn't work. Button grids, people grids, sidebar position, tocs. 
+- login (github account) for Donna (and new Steph)
+- links (check all), docs - curriculum documents, links to these.
+
+### Later to dos
+
+- media library in CMS. how to upload pdfs (e.g. job adverts, policies). 
+- create a "policies" collection (call it "documents?") - add policy documents here that can be printed.
