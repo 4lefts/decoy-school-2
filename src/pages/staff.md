@@ -9,6 +9,7 @@ template: pictureGridTemplate
 Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco officia ea. Non cupidatat tempor in non. Labore deserunt velit aliquip dolore laboris minim exercitation. In aute minim laborum incididunt consequat esse aliquip anim irure exercitation. Velit in velit esse est sunt. Ut mollit officia consequat commodo ut occaecat laboris amet.
 
 ## Headteacher
+
 <div class="people-grid">
     <person-pic
         source="https://via.placeholder.com/300x300"
@@ -17,6 +18,7 @@ Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco of
 </div>
 
 ## Deputy Head
+
 <div class="people-grid">
     <person-pic
         source="https://via.placeholder.com/300x300"
@@ -25,6 +27,7 @@ Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco of
 </div>
 
 ## Senior Management Team
+
 <div class="people-grid">
     <person-pic
         source="https://via.placeholder.com/300x300"
@@ -41,12 +44,32 @@ Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco of
 </div>
 
 ## SEND Coordinator
+
 <div class="people-grid">
     <person-pic
         source="https://via.placeholder.com/300x300"
         caption="Mrs Merron Archer"
     ></person-pic>
 </div>
+
+## Pupil Premium Champion
+
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Miss Helena Thomsett"
+    ></person-pic>
+</div>
+
+## TA Thrive Practitioner
+
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Sue Stephenson"
+    ></person-pic>
+</div>
+
 ## Year 6 Team
 
 <div class="people-grid">
@@ -68,7 +91,7 @@ Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco of
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Sharon Lang, teaching assistant"
+        caption="Ms Sharon Hunt, teaching assistant"
     ></person-pic>
 </div>
 
