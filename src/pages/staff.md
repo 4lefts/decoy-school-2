@@ -1,29 +1,52 @@
 ---
-path: "/staff"
-title: "Our Staff"
-navTitle: "Staff"
+path: /staff
+title: Our Staff
+navTitle: Staff
 order: 10
 toc: false
-template: "pictureGridTemplate"
+template: pictureGridTemplate
 ---
 Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco officia ea. Non cupidatat tempor in non. Labore deserunt velit aliquip dolore laboris minim exercitation. In aute minim laborum incididunt consequat esse aliquip anim irure exercitation. Velit in velit esse est sunt. Ut mollit officia consequat commodo ut occaecat laboris amet.
 
-## Management Team
+## Headteacher
 <div class="people-grid">
     <person-pic
         source="https://via.placeholder.com/300x300"
         caption="Mrs Heather Poustie, Headteacher"
     ></person-pic>
+</div>
+
+## Deputy Head
+<div class="people-grid">
     <person-pic
         source="https://via.placeholder.com/300x300"
         caption="Mr Dave Lee, Deputy Head"
     ></person-pic>
+</div>
+
+## Senior Management Team
+<div class="people-grid">
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Vicky Stables, SENDCO"
+        caption="Mrs Gill Quantrell, EYFS and KS1 Team Leader"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Yvonne Morrell, Mathematics, Year 3 and 4 Team Leader"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Becky Hughes, English, Year 5 and 6 Team Leader"
     ></person-pic>
 </div>
 
+## SEND Coordinator
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Merron Archer"
+    ></person-pic>
+</div>
 ## Year 6 Team
 
 <div class="people-grid">
