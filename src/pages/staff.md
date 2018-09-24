@@ -70,89 +70,6 @@ Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco of
     ></person-pic>
 </div>
 
-## Year 6 Team
-
-<div class="people-grid">
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mrs Becky Hughes, class teacher"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mr Stephen Ball, class teacher"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mrs Mandy Dower, teaching assistant"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mrs Donna Minear, teaching assistant"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Ms Sharon Hunt, teaching assistant"
-    ></person-pic>
-</div>
-
-## Year 5 Team
-
-<div class="people-grid">
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mr Craig Veal, class teacher"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mr John Smith, class teacher"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mrs Gill Gray, teaching assistant"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mrs Denise Rogers, teaching assistant"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mrs Maria Wright, teaching assistant"
-    ></person-pic>
-</div>
-
-## Year 4 Team
-
-<div class="people-grid">
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mrs Yvonne Morrell, class teacher"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Ms Rachel Lawton, class teacher"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mrs Emma Lidbury, class teacher"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mrs Kim Braund, teaching assistant"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mrs Charlotte Finch, teaching assistant"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mrs Mandie Redfern, teaching assistant"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mrs An Other, teaching assistant"
-    ></person-pic>
-</div>
-
 ## Year 3 Team
 
 <div class="people-grid">
@@ -303,6 +220,89 @@ Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco of
     <person-pic
         source="https://via.placeholder.com/300x300"
         caption="Mrs Marie Hindom, teaching assistant"
+    ></person-pic>
+</div>
+
+## Year 4 Team
+
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Yvonne Morrell, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Ms Rachel Lawton, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Emma Lidbury, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Kim Braund, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Charlotte Finch, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Mandie Redfern, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Ms Emma Rogers, teaching assistant"
+    ></person-pic>
+</div>
+
+## Year 5 Team
+
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mr Craig Veal, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mr John Smith, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Gill Gray, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Denise Rogers, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Maria Wright, teaching assistant"
+    ></person-pic>
+</div>
+
+## Year 6 Team
+
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Becky Hughes, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mr Stephen Ball, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Mandy Dower, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Donna Minear, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Ms Sharon Hunt, teaching assistant"
     ></person-pic>
 </div>
 
