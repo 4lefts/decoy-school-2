@@ -70,65 +70,73 @@ Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco of
     ></person-pic>
 </div>
 
-## Year 3 Team
+## Nursery Team
 
 <div class="people-grid">
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Ms Emma Pryde, class teacher"
+        caption="Mrs Cassie Smith, class teacher"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Maggie Stevens, class teacher"
+        caption="Mrs Louise Iddon, teaching assistant"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Samdra Cartwright, class teacher"
+        caption="Mrs Emma Griffiths, teaching assistant"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mr James Kilkelly, class teacher"
+        caption="Mrs Marie Hindom, teaching assistant"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Jan Sweatman, teaching assistant"
+        caption="Mrs Sarah Rowland, teaching assistant"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Tina Hudson, teaching assistant"
+        caption="Ms Lisa Cundy-Knight, teaching assistant"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Tara Cleary, teaching assistant"
+        caption="Ms Annabelle Perkins, teaching assistant"
     ></person-pic>
 </div>
 
-## Year 2 Team
+## Reception Team
 
 <div class="people-grid">
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Miss Helena Thomsett, class teacher"
+        caption="Mrs Emily Simpson, class teacher"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Charlotte Hodgson, class teacher"
+        caption="Miss Sarah Fraser, class teacher"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Amanda Donnai, class teacher"
+        caption="Mrs Helen Cammack, class teacher"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Vicki Weir, teaching assistant"
+        caption="Ms Helen Dawes, teaching assistant"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Lisa Morgan-Anstee, teaching assistant"
+        caption="Mrs Helen Yip, teaching assistant"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Debbie Connor, teaching assistant"
+        caption="Mrs Marie Cogavin, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Ms Annabelle Perkins, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Tania Bull, teaching assistant"
     ></person-pic>
 </div>
 
@@ -165,61 +173,65 @@ Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco of
     ></person-pic>
 </div>
 
-## Reception Team
+## Year 2 Team
 
 <div class="people-grid">
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Emily Simpson, class teacher"
+        caption="Miss Helena Thomsett, class teacher"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Ms Sarah Fraser, class teacher"
+        caption="Mrs Charlotte Hodgson, class teacher"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Helen Cammack, class teacher"
+        caption="Mrs Amanda Donnai, class teacher"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Ms Helen D?, teaching assistant"
+        caption="Mrs Vicki Weir, teaching assistant"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Helen Yip, teaching assistant"
+        caption="Mrs Lisa Morgan-Anstee, teaching assistant"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Marie Cogavin, teaching assistant"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mrs Annabelle Perkins, teaching assistant"
-    ></person-pic>
-    <person-pic
-        source="https://via.placeholder.com/300x300"
-        caption="Mrs Tania Bull, teaching assistant"
+        caption="Mrs Debbie Connor, teaching assistant"
     ></person-pic>
 </div>
 
-## Nursery Team
+## Year 3 Team
 
 <div class="people-grid">
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Cassie Smith, class teacher"
+        caption="Ms Emma Pryde, class teacher"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Lousie Iddon, teaching assistant"
+        caption="Mrs Maggie Stevens, class teacher"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Emma Griffiths, teaching assistant"
+        caption="Mrs Sandra Cartwright, class teacher"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Marie Hindom, teaching assistant"
+        caption="Mr James Kilkelly, class teacher"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Jan Sweatman, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Tina Hudson, teaching assistant"
+    ></person-pic>
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Tara Cleary, teaching assistant"
     ></person-pic>
 </div>
 
@@ -306,12 +318,21 @@ Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco of
     ></person-pic>
 </div>
 
+## Modern Foreign Languages
+
+<div class="people-grid">
+    <person-pic
+        source="https://via.placeholder.com/300x300"
+        caption="Mrs Lee Cheeseworth"
+    ></person-pic>
+</div>
+
 ## Administration Team
 
 <div class="people-grid">
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Ms An Other, business manager"
+        caption="Mrs Kay Dicken, business manager"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
@@ -319,10 +340,10 @@ Ipsum labore duis commodo dolore cillum culpa dolore nostrud ut irure ullamco of
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Ms An Other, administrative assistant"
+        caption="Ms Jess Edwards, administrative assistant"
     ></person-pic>
     <person-pic
         source="https://via.placeholder.com/300x300"
-        caption="Mrs Lee Coe, attendance officer"
+        caption="Mrs Lee Coe, admissions and attendance officer"
     ></person-pic>
 </div>
