@@ -3,6 +3,7 @@ backend:
   repo: "decoy-school/decoy-school-2"
 
 media_folder: "static/assets"
+public_folder: "/assets"
 
 collections:
   - name: pages
