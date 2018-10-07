@@ -20,10 +20,3 @@ collections:
       - {name: body, label: Body, widget: markdown}
     editor:
       preview: true
-  
-path: "/"
-title: Welcome
-navTitle: "Home"
-order: 1
-toc: false
-template: "indexTemplate"
