@@ -190,21 +190,22 @@ main{
     .hero{
         height: 70vh;
         margin-bottom: 20px;
+        box-shadow: inset 0px -20px 60px -12px rgba(50, 50, 50, 0.5);
         background:
-            url("http://via.placeholder.com/2560x960") 
+            url("../images/banners/banner.jpg") 
             center
             no-repeat;
         display: flex;
         align-items: center;
         justify-content: center;
         h1{
-            @include card(3);
+            @include card(1);
             color: white;
             font-family: 'Comfortaa', cursive;
             font-size: 9vmin;
             padding: 0.3em 1em 0.1em 0.3em;
             border-bottom-right-radius: 20%;
-            background-color: rgba(black, 0.3);
+            background-color: rgba(black, 0.35);
             margin: 0;
             span{
                 font-size: 0.55em;
@@ -401,7 +402,7 @@ table{
                 margin: 0 auto;
                 padding: $gutter 0;
                 border-bottom: 1px solid lighten($decoy-green, 10%);
-                &:last-of-type, &:first-of-type{
+                &:last-of-type{
                     border: none;
                 }
             }
