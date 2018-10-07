@@ -2,7 +2,7 @@ backend:
   name: "github"
   repo: "decoy-school/decoy-school-2"
 
-media_folder: static/assets
+media_folder: "static/assets"
 
 collections:
   - name: pages
