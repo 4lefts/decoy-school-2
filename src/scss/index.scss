@@ -164,6 +164,9 @@ main{
             @include link-styles;
         }
     }
+    img{
+        width: 100%;
+    }
     ul, ol{
         padding-left: 1.4em;
     }
@@ -171,9 +174,7 @@ main{
         vertical-align: middle;
         margin-bottom: 1em;
         margin-right: 1em;
-    }
-    img{
-        width: 100%;
+        width: auto;
     }
     img[alt="photo of headteacher"]{
         float: left;
