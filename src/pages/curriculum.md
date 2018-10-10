@@ -14,8 +14,6 @@ The main aim is to raise standards. The new curriculum has been developed partly
 
 Although the new curriculum is intended to be more challenging, the content is actually slimmer than the current curriculum, focusing on essential core subject knowledge and skills such as essay writing and computer programming.
 
-![Children doing Star Reading.](/uploads/re_ar.jpg)
-
 ## The main changes
 
 The table below summarises the main changes in the core subjects.
