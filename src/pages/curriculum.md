@@ -14,8 +14,6 @@ The main aim is to raise standards. The new curriculum has been developed partly
 
 Although the new curriculum is intended to be more challenging, the content is actually slimmer than the current curriculum, focusing on essential core subject knowledge and skills such as essay writing and computer programming.
 
-![Children doing Star Reading.](/uploads/re_ar.jpg)
-
 ## The main changes
 
 The table below summarises the main changes in the core subjects.
@@ -49,35 +47,35 @@ If you would like a flavour of some of the rich learning experiences at Decoy Sc
 
 <div class="buttons-grid">
     <info-btn
-        href="https://drive.google.com/open?id=0B76W\_\\\\\\\_U5CTntazB2SDNKYnlldHM"
+        href="https://drive.google.com/open?id=0B76W\_\\\\\\\\_U5CTntazB2SDNKYnlldHM"
         text="Nursery Curriculum">
     </info-btn>
     <info-btn
-        href="https://drive.google.com/open?id=0B76W\\\\\\\_\\\\\\\_U5CTntd25PZjBiTGpCcTA"
+        href="https://drive.google.com/open?id=0B76W\\\\\\\\_\\\\\\\\_U5CTntd25PZjBiTGpCcTA"
         text="Reception Curriculum">
     </info-btn>
     <info-btn
-        href="https://drive.google.com/file/d/0B76W\\\\\\\_\\\\\\\_U5CTntVmMxUHNIcUlBSG8/view?usp=sharing"
+        href="https://drive.google.com/file/d/0B76W\\\\\\\\_\\\\\\\\_U5CTntVmMxUHNIcUlBSG8/view?usp=sharing"
         text="Year 1 Curriculum">
     </info-btn>
     <info-btn
-        href="https://drive.google.com/file/d/0B76W\\\\\\\_\\\\\\\_U5CTntZ1ZpRktrNFpubVE/view?usp=sharing"
+        href="https://drive.google.com/file/d/0B76W\\\\\\\\_\\\\\\\\_U5CTntZ1ZpRktrNFpubVE/view?usp=sharing"
         text="Year 2 Curriculum">
     </info-btn>
     <info-btn
-        href="https://drive.google.com/file/d/0B76W\\\\\\\_\\\\\\\_U5CTntYUJGSmhXcUtic28/view?usp=sharing"
+        href="https://drive.google.com/file/d/0B76W\\\\\\\\_\\\\\\\\_U5CTntYUJGSmhXcUtic28/view?usp=sharing"
         text="Year 3 Curriculum">
     </info-btn>
     <info-btn
-        href="https://drive.google.com/file/d/0B76W\\\\\\\_\\\\\\\_U5CTntWHI2cERnOV9VUkE/view?usp=sharing"
+        href="https://drive.google.com/file/d/0B76W\\\\\\\\_\\\\\\\\_U5CTntWHI2cERnOV9VUkE/view?usp=sharing"
         text="Year 4 Curriculum">
     </info-btn>
     <info-btn
-        href="https://drive.google.com/file/d/0B76W\\\\\\\_\\\\\\\_U5CTntRkMtX3RyZDRjSlk/view?usp=sharing"
+        href="https://drive.google.com/file/d/0B76W\\\\\\\\_\\\\\\\\_U5CTntRkMtX3RyZDRjSlk/view?usp=sharing"
         text="Year 5 Curriculum">
     </info-btn>
     <info-btn
-        href="https://drive.google.com/file/d/0B76W\\\\\\\_\_U5CTntcnBSVzd6ZV9VWE0/view?usp=sharing"
+        href="https://drive.google.com/file/d/0B76W\\\\\\\\_\_U5CTntcnBSVzd6ZV9VWE0/view?usp=sharing"
         text="Year 6 Curriculum">
     </info-btn>
 </div>
